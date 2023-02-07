@@ -1,0 +1,39 @@
+{
+  "name": "Discord-MusicBot",
+  "description": "The best and only music bot for your amazing server!",
+  "repository": "https://github.com/aditya8raj",
+  "logo": "https://cdn.discordapp.com/app-icons/1068787823810977853/ae308be1c267cc2ffc4200df7d127a7b.png?size=1024",
+  "keywords": [
+    "node",
+    "discord",
+    "youtube",
+    "music",
+    "bot",
+    "lavalink",
+    "dashboard"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "token": {
+      "description": "The Discord Bot Token (https://discord.com/developers/applications)",
+      "required": "true"
+    },
+    "clientId": {
+      "description": "The Discord Bot ClientID",
+      "required": "true"
+    },
+    "clientSecret": {
+      "description": "The Discord Bot ClientSecret",
+      "required": "true"
+    },
+    "website": {
+      "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
+      "value": "http://localhost"
+    }
+  }
+}

@@ -1,9 +1,9 @@
 module.exports = {
 	cmdPerPage: 10,
 	adminId: "952119109028565003",
-	token: process.env.token || "MTA2ODc4NzgyMzgxMDk3Nzg1Mw.GaV0pM.15skepB-2FLGA_E-9Gn3ykLka3DjEQIHIVySNk",
+	token: process.env.token || "MTA2ODc4NzgyMzgxMDk3Nzg1Mw.GKVAk2.Yf2qNHXTkhl4FVPOXxspn2L9FcSxozbsLUN8yc",
 	clientId: process.env.clientId || "1068787823810977853",
-	clientSecret: process.env.clientSecret || "CStoXbBKQa8UF3HgbDMk5pU5ajHbZVex",
+	clientSecret: process.env.clientSecret || "O37hOY1A19MrDmH-9H_i1gNT1ECcj07j",
 	port: 4200,
 	scopes: ["bot", "guilds", "applications.commands"],
 	serverDeafen: true,

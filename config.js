@@ -21,9 +21,9 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main",
-			host: "ssl.freelavalink.ga",
+			host: "lavalink-replit.aditya8raj.repl.co",
 			port: 443,
-			password: "www.freelavalink.ga",
+			password: "maybeiwasboring",
 			retryAmount: 200,
 			retryDelay: 40,
 			secure: true,
